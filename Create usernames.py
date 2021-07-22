@@ -4,5 +4,5 @@ usernames = []
 # write your for loop here
 for name in names:
     usernames.append(name.lower().replace(" ","_"))
-    #name = name.lower().replace(" ","_")
+    
 print(usernames)
