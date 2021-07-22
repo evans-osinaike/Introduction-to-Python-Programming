@@ -21,4 +21,10 @@ for headline in headlines:
             else: 
                 break
 
+#for headline in headlines:
+#    news_ticker += headline + " "
+#    if len(news_ticker) >= 140:
+#        news_ticker = news_ticker[:140]
+#        break
+
 print(news_ticker)
