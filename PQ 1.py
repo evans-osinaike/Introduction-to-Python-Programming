@@ -18,7 +18,7 @@ print("nom_count_dict = {}\n".format(nom_count_dict))
 
 ### Question 1B: Create dictionary with the count of Oscar wins for each director
 win_count_dict = {}
-all_winners = [str(name) for year, name in winners.items()]
+all_winners = [name for year, year_winner in winners.items() for name in year_winner]
 for name in set(all_winners):
     win_count_dict[name] = all_winners.count(name)
 
