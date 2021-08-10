@@ -6,7 +6,7 @@
 cities = ["New York City", "Los Angeles", "Chicago", "Mountain View", "Denver", "Boston"]
 
 #def is_short(name):
-#    return len(name) < 10
+#   return len(name) < 10
 
 is_short = lambda name: len(name) < 10
 
