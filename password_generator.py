@@ -33,7 +33,7 @@ def generate_password(word_list):
 print(generate_password(word_list))
 
 def generate_password():
-    return random.choice(word_list) + random.choice(word_list) + random.choice(word_list)
+    return r.choice(word_list) + r.choice(word_list) + r.choice(word_list)
 
 def generate_password():
-    return ''.join(random.sample(word_list,3))
+    return ''.join(r.sample(word_list,3))
