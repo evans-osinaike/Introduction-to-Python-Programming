@@ -42,9 +42,10 @@ shirt_two = Shirt('orange', 'L', 'short-sleeve', 10)
 #
 #    - calculate the total cost of shirt_one and shirt_two
 #    - store the results in a variable called total
-#    
+#
 ###
 total = shirt_one.price + shirt_two.price
+print(total)
 
 
 ### TODO:
@@ -54,4 +55,5 @@ total = shirt_one.price + shirt_two.price
 #       of 6%
 #    - store the results in a variable called total_discount
 ###
-total_discount =  shirt_one.discount(.14) + shirt_two.discount(.06) 
+total_discount =  shirt_one.discount(.14) + shirt_two.discount(.06)
+print(total_discount)
